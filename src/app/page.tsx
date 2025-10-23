@@ -4,6 +4,7 @@ import {
   ProjectsSection,
   TapeSection,
   AboutSection,
+  ContactSection,
 } from "@/sections";
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ProjectsSection />
       <TapeSection />
       <AboutSection />
+      <ContactSection />
     </div>
   );
 }
